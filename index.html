@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teerth Avila | Cooperative Housing Society</title>
+<style>
+:root{--primary:#174a7e;--secondary:#2d8a6d;--bg:#f5f7fb;--text:#1f2937;--muted:#6b7280;--card:#fff;--border:#e5e7eb;--danger:#c2413b}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text)}
+header{background:linear-gradient(135deg,#123b66,#246da5);color:#fff;padding:20px 6%;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10}
+.brand{display:flex;gap:13px;align-items:center}.logo{width:46px;height:46px;border-radius:12px;background:#fff;color:var(--primary);display:grid;place-items:center;font-weight:800;font-size:20px}.brand h1{font-size:18px;margin:0}.brand span{font-size:12px;opacity:.8}
+nav a{color:#fff;text-decoration:none;margin-left:22px;font-size:14px}.hero{padding:64px 6%;background:linear-gradient(120deg,#eaf3fb,#f8fbff);display:flex;gap:40px;align-items:center}.hero-text{max-width:680px}.eyebrow{color:var(--secondary);font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:1px}.hero h2{font-size:44px;line-height:1.08;margin:10px 0 16px}.hero p{font-size:17px;color:#526173;line-height:1.7}.btn{display:inline-block;background:var(--primary);color:#fff;text-decoration:none;border-radius:9px;padding:12px 18px;margin-top:12px;font-weight:600}.btn.alt{background:#fff;color:var(--primary);border:1px solid #cdd8e5;margin-left:8px}.building{min-width:300px;height:220px;border-radius:20px;background:linear-gradient(150deg,#8eb7d6,#dbe9f5);display:grid;place-items:center;box-shadow:0 18px 40px #173b5a20}.building .tower{width:150px;height:170px;background:#fff;border-radius:8px 8px 3px 3px;padding:15px;box-shadow:0 10px 20px #123b6620}.windows{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.windows i{height:25px;background:#75a9cf;border-radius:3px}
+section{padding:48px 6%}.section-title{display:flex;justify-content:space-between;align-items:end;margin-bottom:22px}.section-title h3{font-size:27px;margin:0}.section-title p{margin:6px 0 0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px;box-shadow:0 5px 18px #0f172a08}.stat{font-size:30px;font-weight:800;color:var(--primary)}.label{color:var(--muted);font-size:13px;margin-top:4px}
+.notice-grid{display:grid;grid-template-columns:2fr 1fr;gap:20px}.notice{display:flex;gap:15px;padding:18px 0;border-bottom:1px solid var(--border)}.notice:last-child{border-bottom:0}.date{min-width:58px;height:58px;border-radius:10px;background:#eaf3fb;color:var(--primary);display:grid;place-items:center;font-weight:800;font-size:13px;text-align:center}.notice h4{margin:0 0 6px}.notice p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}
+.actions{display:grid;gap:12px}.action{display:flex;align-items:center;gap:12px;padding:14px;border:1px solid var(--border);border-radius:10px;background:#fff}.icon{width:38px;height:38px;border-radius:9px;background:#eef6f2;display:grid;place-items:center;color:var(--secondary);font-weight:800}.events{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.event{background:#fff;border:1px solid var(--border);border-radius:14px;padding:20px}.event .tag{font-size:11px;font-weight:700;color:var(--secondary);text-transform:uppercase}.event h4{margin:9px 0}.event p{font-size:14px;color:var(--muted)}
+footer{background:#102f4f;color:#d9e5ef;padding:30px 6%;display:flex;justify-content:space-between;font-size:13px}
+@media(max-width:850px){nav{display:none}.hero{flex-direction:column}.hero h2{font-size:34px}.grid{grid-template-columns:repeat(2,1fr)}.notice-grid{grid-template-columns:1fr}.events{grid-template-columns:1fr}}
+@media(max-width:520px){.grid{grid-template-columns:1fr 1fr}.hero,.section{padding-left:5%;padding-right:5%}.building{width:100%;min-width:0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="logo">TA</div>
+    <div><h1>Teerth Avila</h1><span>Cooperative Housing Society</span></div>
+  </div>
+  <nav><a href="#home">Home</a><a href="#notices">Notices</a><a href="#services">Services</a><a href="#events">Events</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-text">
+    <div class="eyebrow">Welcome to Teerth Avila</div>
+    <h2>One connected community. One simple society portal.</h2>
+    <p>A modern digital platform for residents, committee members and society administration to manage notices, maintenance, complaints, visitors and important documents.</p>
+    <a class="btn" href="#services">Explore Services</a>
+    <a class="btn alt" href="#notices">View Notices</a>
+  </div>
+  <div class="building"><div class="tower"><div class="windows">
+    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+  </div></div></div>
+</section>
+
+<section>
+<div class="section-title"><div><h3>Society Overview</h3><p>Quick information at a glance</p></div></div>
+<div class="grid">
+  <div class="card"><div class="stat">120+</div><div class="label">Flats / Units</div></div>
+  <div class="card"><div class="stat">350+</div><div class="label">Residents</div></div>
+  <div class="card"><div class="stat">98%</div><div class="label">Maintenance Collection</div></div>
+  <div class="card"><div class="stat">24/7</div><div class="label">Security & Support</div></div>
+</div>
+</section>
+
+<section id="notices">
+<div class="notice-grid">
+<div class="card">
+  <div class="section-title"><div><h3>Latest Notices</h3><p>Important society announcements</p></div></div>
+  <div class="notice"><div class="date">06<br>OCT</div><div><h4>Monthly Society Meeting</h4><p>General body meeting scheduled for Sunday at the society clubhouse.</p></div></div>
+  <div class="notice"><div class="date">04<br>OCT</div><div><h4>Water Tank Cleaning</h4><p>Water supply may be interrupted during scheduled maintenance.</p></div></div>
+  <div class="notice"><div class="date">01<br>OCT</div><div><h4>Festival Decoration Guidelines</h4><p>Please follow society safety and common-area decoration guidelines.</p></div></div>
+</div>
+<div class="card" id="services">
+  <div class="section-title"><div><h3>Resident Services</h3><p>Common actions</p></div></div>
+  <div class="actions">
+    <div class="action"><div class="icon">₹</div><div><b>Maintenance</b><br><small>View bills & payments</small></div></div>
+    <div class="action"><div class="icon">!</div><div><b>Complaints</b><br><small>Raise a service request</small></div></div>
+    <div class="action"><div class="icon">V</div><div><b>Visitors</b><br><small>Manage visitor entries</small></div></div>
+    <div class="action"><div class="icon">D</div><div><b>Documents</b><br><small>Access society documents</small></div></div>
+  </div>
+</div>
+</div>
+</section>
+
+<section id="events">
+<div class="section-title"><div><h3>Upcoming Events</h3><p>Stay connected with your community</p></div></div>
+<div class="events">
+  <div class="event"><div class="tag">Community</div><h4>General Body Meeting</h4><p>Sunday · 11:00 AM · Clubhouse</p></div>
+  <div class="event"><div class="tag">Maintenance</div><h4>Fire Safety Inspection</h4><p>Wednesday · 10:00 AM · Society Premises</p></div>
+  <div class="event"><div class="tag">Social</div><h4>Festival Gathering</h4><p>Saturday · 7:00 PM · Community Area</p></div>
+</div>
+</section>
+
+<section id="contact">
+<div class="card">
+  <h3>Society Office</h3>
+  <p>For demo purposes, replace these details with the actual society office information.</p>
+  <p><b>Office Hours:</b> 10:00 AM – 6:00 PM &nbsp; | &nbsp; <b>Emergency:</b> Security Desk</p>
+</div>
+</section>
+</main>
+
+<footer>
+  <div>© 2026 Teerth Avila Cooperative Housing Society</div>
+  <div>Digital Society Portal · Demo</div>
+</footer>
+</body>
+</html>
